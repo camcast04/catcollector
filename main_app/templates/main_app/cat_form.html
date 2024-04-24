@@ -11,7 +11,6 @@
         <form action="" method="POST">
           {% csrf_token %}
           <table class="striped">
-            <!-- Render the inputs inside of <tr>s & <td>s -->
             {{ form.as_table }}
           </table>
           <div class="card-action">
